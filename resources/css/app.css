@@ -1,0 +1,220 @@
+
+
+/*estilos pagina*/
+
+/*contenedor menu inicio*/
+.fixed{
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}/* el position fixed mantiene el menu estático al hacer scroll*/
+.container-principal{
+    display: block;
+    padding-top: 90px;
+}
+
+.container-logo{
+    background: #afcfcd;
+    min-height: 80px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.nav-link{
+    float: left;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+.nav-link:hover{
+    color:#0aafea;
+    cursor: pointer;
+}
+.card-content{
+    font-size: 15px;
+    font-weight: bold;
+    background: #afcfcd;
+    color: white;
+}
+.button-send{
+    background: #0aafea;
+}
+.avatar-perfil img{
+    width: 40px;
+    height: 40px;
+    border-radius: 900px;
+    overflow: hidden;
+}
+.avatar{
+    width: 80px;
+    height: 50px;
+}
+
+/*PUBLICACION*/
+.pug_image{
+    margin-bottom: 15px;
+}
+.publi-header{
+    padding-bottom: 0px;
+}
+.data_user{
+    float: left;
+}
+.data_user a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    color: black;
+}
+.avatar-content{
+    float: left;
+    margin-right: 10px;
+}
+
+.image-content img{
+    width: 790px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.description .nick{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.btn-like,.btn-dislike{
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-top: 8px;
+}
+.number-likes{
+    display: block;
+    float: left;
+    margin-left:3px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.nick-date{
+    float: right;
+    margin-right: 15px;
+    font-weight: bold;
+    color: #444;
+}
+
+/*COMENTARIOS*/
+.card-comments{
+    margin-top: 10px;
+}
+.comments a{
+    display: block;
+    text-decoration: none;
+    color:#0aafea;
+    margin-top: 5px;
+}
+.content-comment{
+    margin-top: 10px;
+}
+.control-comment{
+    display: block;
+    float: left;
+    width: 90%;
+    margin-right: 10px;
+}
+.button-comment{
+    display: block;
+    float: left;
+    height: 35px;
+    width: 35px;
+    border-radius: 900px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+.button-comment:hover{
+    background: #0aafea;
+    color: white;
+}
+.comment-nick{
+   font-weight: bold; 
+   margin-right: 8px;
+}
+.comment-description{
+    
+}
+.action{
+    float: right;
+}
+.nick-date-comment{
+    color: #444;
+    font-size: 11px;
+    margin-left: 15px;
+}
+.point{
+    float: left;
+    margin: 2px;
+    background: gray;
+    width: 5px;
+    height: 5px;
+    border-radius: 900px;
+}
+.point:hover{
+    width: 8px;
+    height: 8px;
+}
+/*PERFIL DE USUARIO*/
+.profile-image{
+    float: left;
+}
+.profile-image .avatar{
+    width: 140px;
+    height: 140px;
+}
+.data_user_profile{
+    float: left;
+    margin-left: 20px;
+    width: 79%;
+}
+.nick-profile{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.name-profile{
+    font-size: 20px;
+    color: #444;
+}
+.create-profile{
+    float:left;
+}
+.editar{
+    background: #0aafea;
+    float: right;
+}
+#title-publi{
+    display: block;
+    width: 100%;
+    background: #afcfcd;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.images-content-profile{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.image-content-profile{
+    float: left;
+    width: 33%;
+}
+.image-content-profile img{
+    width: 100%;
+    height: 250px;
+}
